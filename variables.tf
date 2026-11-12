@@ -21,7 +21,7 @@ EOT
         contains(["all", "private", "selected"], v.visibility)
       )
     ])
-    error_message = "must be one of: all, private, selected"
+    error_message = "must be one of: \"all\", \"private\", \"selected\""
   }
   # Note: 1 additional provider-side validator is enforced at apply time but not mirrored as validation{} blocks here (bespoke or non-mechanically-translatable).
 }
